@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - uses: toto04/action-test
+            - uses: toto04/action-test@main
               with:
                   clickup_api_key: test
                   problem_folder_id: 210431256
