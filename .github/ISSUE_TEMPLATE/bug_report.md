@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: "[INFO] buggygb"
+labels: bug, documentation, duplicate
 assignees: ''
 
 ---
