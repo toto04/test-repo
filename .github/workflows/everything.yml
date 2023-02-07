@@ -15,6 +15,6 @@ jobs:
             - uses: actions/checkout@v2
             - uses: toto04/action-test@main
               with:
-                  problem_list_id: 210431256
-                  feature_list_id: 900400324463
+                  problem_list_id: 900400393970
+                  feature_list_id: 900400393973
                   clickup_api_key: ${{ secrets.CLICKUP_TOKEN }}
