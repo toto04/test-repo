@@ -12,7 +12,6 @@ jobs:
     automate:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
             - uses: toto04/action-test@main
               with:
                   problem_list_id: 900400393970
