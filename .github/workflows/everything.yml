@@ -6,7 +6,7 @@ on:
         branches:
             - main
     issues:
-        types: [opened, edited, reopened, closed]
+        types: [opened, edited, reopened, closed, labeled]
 
 jobs:
     automate:
