@@ -1,6 +1,5 @@
 name: "everything test"
 on:
-    push:
     pull_request:
         types: [opened, reopened, closed]
         branches:
@@ -12,7 +11,7 @@ jobs:
     automate:
         runs-on: ubuntu-latest
         steps:
-            - uses: toto04/action-test@main
+            - uses: polinetworkorg/clickup-integration-action@main
               with:
                   problem_list_id: 900400393970
                   feature_list_id: 900400393973
