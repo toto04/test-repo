@@ -1,7 +1,7 @@
 name: "everything test"
 on:
     pull_request:
-        types: [ready_for_review, closed]
+        types: [opened, reopened, ready_for_review, closed]
         branches:
             - main
     issues:
